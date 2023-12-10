@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+    --lightRed-cta-text:  hsl(356, 100%, 66%);
+    --very-lightRed-cta-hover-bg:hsl(355, 100%, 74%);
+    --very-dark-blue-headings:hsl(208, 49%, 24%);
+    --white:hsl(0, 0%, 100%);
+    --footer-text:hsl(240, 2%, 79%);
+    --body-copy:hsl(207, 13%, 34%);
+    --footer-bg:hsl(240, 10%, 16%);
+    --intro-cta-bg: linear-gradient(to bottom,hsl(13, 100%, 72%),hsl(353, 100%, 62%));
+    --body-bg: linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%))
+}
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
