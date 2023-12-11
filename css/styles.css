@@ -22,6 +22,7 @@ h1, h2, h3,h4,p{
 
 button, a{
     font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
 }
 .container{}
 
@@ -55,10 +56,9 @@ button, a{
     left: 25px;
     border-radius: 5px;
     width: 75%;
-    /* height: 65%; */
     background-color: var(--white);
     box-shadow: 0 0 25px var(--footer-text);
-    /* display: none; */
+    display: none;
     padding: 1rem 1.5rem;
 }
 .product, .company, .connect{
@@ -83,6 +83,10 @@ button, a{
     align-items: center;
     cursor: pointer;
 }
+.title:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--white);
+}
 .title img{
     width: 12px;
     height: auto;
@@ -95,14 +99,15 @@ button, a{
 .show{
     display: flex;
 }
-.product-menu h3{
-    
-}
 .product-menu a, .company-menu a, .connect a{
     font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
     color: var(--body-copy);
+}
+.menu a:hover{
+    font-weight: bold;
+    color: var(--very-dark-blue-headings);
 }
 
 .menu-button{
@@ -130,13 +135,9 @@ button, a{
     font-weight: 700;
     border-radius: 50px;
 }
-/* .arrow{
-    background-image: url(../images/icon-arrow-light.svg);
-    background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
-    background-color: var(--lightRed-cta-text);
-} */
+.menu-button .signup:hover{
+    background: var(--very-lightRed-cta-hover-bg);
+}
 .intro{
     text-align: center;
     padding: 0 1.2rem;
@@ -165,6 +166,14 @@ button, a{
     color: var(--lightRed-cta-text);
     font-weight: 700;
     cursor: pointer;
+}
+.button-primary:hover{
+    background: var(--very-lightRed-cta-hover-bg);
+    color: var(--white);
+}
+.button-secondary:hover{
+    background: var(--white);
+    color: var(--lightRed-cta-text);
 }
 .button-secondary{
     font-size: 1rem;
@@ -297,4 +306,8 @@ h2{
     font-size: 1.3rem;
     text-decoration: none;
     padding-bottom: 1rem;
+}
+.footer a:hover{
+    text-decoration: underline;
+    text-decoration-color:var(--white) ;
 }

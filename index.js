@@ -8,15 +8,16 @@ const company = $(".company");
 const companyMenu =$(".company-menu");
 const connect = $(".connect");
 const connectMenu =$(".connect-menu");
-// menuIcon.on("click", ()=>{
-//     if(menuIcon.attr("src") === hamIcon){
-//         menu.fadeIn();
-//         menuIcon.attr("src", closeIcon);
-//     }else{
-//         menu.fadeOut();
-//         menuIcon.attr("src", hamIcon).fadeIn();
-//     }
-// })
+
+menuIcon.on("click", ()=>{
+    if(menuIcon.attr("src") === hamIcon){
+        menu.fadeIn();
+        menuIcon.attr("src", closeIcon);
+    }else{
+        menu.fadeOut();
+        menuIcon.attr("src", hamIcon).fadeIn();
+    }
+})
 
 product.on("click", ()=>{
     productMenu.toggleClass("show");
