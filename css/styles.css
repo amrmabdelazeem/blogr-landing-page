@@ -24,13 +24,11 @@ button, a{
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
 }
-.container{}
-
 .header{
     background-image:url(../images/bg-pattern-intro-mobile.svg), var(--intro-cta-bg);
     background-size: 300%;
     background-position: top 35% left 35%;
-    padding: 3rem 1rem 5rem;
+    padding: 3rem 1rem 9rem;
     z-index: 0;
     height: 60vh;
     border-bottom-left-radius: 100px;
@@ -155,7 +153,6 @@ button, a{
     grid-template-rows: .1fr;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    padding: 0 1.2rem;
     margin-top: 3rem;
 }
 .button-primary{
@@ -194,7 +191,7 @@ button, a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 110%;
-    height:45vh ;
+    height:340px ;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -213,9 +210,10 @@ h2{
     color: var(--very-dark-blue-headings);
 }
 .editor-text p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--body-copy);
     line-height: 1.8;
+    padding: 0 1.3rem;
 }
 
 .phones{
@@ -225,12 +223,11 @@ h2{
     background-size: 155%, 100%;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 110px;
-    height: 80vh;
-
     position: relative;
     background-repeat: no-repeat;
     margin-top: 18rem;
     /* padding: 12rem 0 0; */
+    height: 620px;
 }
 .phones img{
     width: 100%;
@@ -249,7 +246,7 @@ h2{
     color: var(--white);
 }
 .text-phones p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--footer-text);
     line-height: 1.8;
 }
@@ -259,14 +256,15 @@ h2{
 }
 .illustration-bottom{
     background-image: url(../images/illustration-laptop-mobile.svg);
-    height: 45vh;
+    height:340px;
     background-repeat: no-repeat;
     background-size: 130%;
     background-position: center;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .text-laptop{
-    padding: 1rem 1.2rem;
+    padding: 0 1rem;
 }
 .text-laptop h3{
     font-size: 1.8rem;
@@ -275,7 +273,8 @@ h2{
 .text-laptop p{
     color: var(--body-copy);
     line-height: 1.8;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding: 0 1.5rem;
 }
 .footer{
     display: flex;
@@ -285,6 +284,7 @@ h2{
     background-color: var(--footer-bg);
     border-top-right-radius:100px;
     padding-bottom: 2rem;
+    margin-top: 5rem;
 }
 .footer div:not(.last-logo){
     display: flex;
