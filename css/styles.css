@@ -311,3 +311,97 @@ h2{
     text-decoration: underline;
     text-decoration-color:var(--white) ;
 }
+
+@media (min-width:1440px){
+    .header{
+        padding-left: 4rem;
+    }
+    .logo{
+        width: 7rem;
+    }
+    .nav{
+        margin-bottom: 10rem;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        background: none;
+        box-shadow: none;
+        top: 30px;
+        left: 250px;
+    }
+    .menu-button{
+        border: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        background-color: none;
+    }
+    .menu-button .login{
+        color: var(--white);
+        font-weight: 400;
+    }
+    .menu-button .signup:hover{
+        color: var(--white);
+    }
+    .menu-button .signup{
+        color: var(--lightRed-cta-text);
+        background: var(--white);
+    }
+    .product, .company{
+        margin-right: 2rem;
+    }
+    .title h3{
+        color: var(--white);
+    }
+    .product-menu{
+        align-items: flex-start;
+        width: 120px;
+        padding-left: 2rem; 
+        position: absolute;
+        top: 70px;
+    }
+    .product-menu a{
+        
+    }
+    .company-menu{
+        align-items: flex-start;
+        width: 100px;
+        padding-left: 2rem; 
+        position: absolute;
+        top: 70px;
+    }
+    .connect-menu{
+        align-items: flex-start;
+        width: 100px;
+        padding-left: 2rem; 
+        position: absolute;
+        top: 70px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro h1{
+        font-size: 5rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .intro p{
+        font-size: 1.5rem;
+    }
+    .buttons{
+        margin-top: 2rem;
+    }
+    .mid-section{
+        display: grid;
+        grid-template-rows: 10px 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
