@@ -120,30 +120,33 @@ h2{
 }
 
 .phones{
-    position: relative;
-    background: url(../images/bg-pattern-circles.svg), var(--body-bg);
-    background-position: top 280% left -110px;
-    background-size: 150%;
-    background-repeat: no-repeat;
-
-    margin-top: 20rem;
-    /* height: 100vh; */
-    padding: 12rem 0 0;
+    background: url(../images/bg-pattern-circles.svg),var(--body-bg);
+    background-repeat: no-repeat, repeat;
+    background-position: center -270px, 0;
+    background-size: 155%, 100%;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 110px;
+    height: 80vh;
 
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: 18rem;
+    /* padding: 12rem 0 0; */
 }
 .phones img{
     width: 100%;
-    position: absolute;
-    top: -220px;
+    position: relative;
+    top: -200px;
 }
 .text-phones{
-    padding: 0 1rem;
+    position: relative;
+    top: -220px;
+    padding: 0 1rem 0;
     text-align: center;
+
 }
 .text-phones h3{
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: var(--white);
 }
 .text-phones p{
