@@ -52,30 +52,31 @@ button, a{
 .menu{
     position: absolute;
     top: 120px;
-    left: 20px;
+    left: 25px;
     border-radius: 5px;
-    width: 90%;
-    height: 65%;
+    width: 75%;
+    /* height: 65%; */
     background-color: var(--white);
     box-shadow: 0 0 25px var(--footer-text);
-    display: none;
-    padding-top: 1rem;
+    /* display: none; */
+    padding: 1rem 1.5rem;
 }
-.product{
+.product, .company, .connect{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.product-menu{
+.product-menu, .company-menu, .connect-menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #efeff1;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     display: none;
+    gap: 1rem;
 }
 .title{
     display: flex;
@@ -97,12 +98,37 @@ button, a{
 .product-menu h3{
     
 }
-.product-menu a{
-    font-size: 1.2rem;
+.product-menu a, .company-menu a, .connect a{
+    font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
-    padding-bottom: .7rem;
-    
+    color: var(--body-copy);
+}
+
+.menu-button{
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    border-top: 1px solid #efeff1;
+    margin-top: 1.5rem;
+    padding:2rem 0 1rem;
+}
+.menu-button .login{
+    border: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 50px;
+    color: var(--very-dark-blue-headings);
+}
+.menu-button .signup{
+    background: linear-gradient(to right,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    padding: .8rem 2rem;
+    border: none;
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 50px;
 }
 /* .arrow{
     background-image: url(../images/icon-arrow-light.svg);
