@@ -20,10 +20,13 @@ const connectMenu =$(".connect-menu");
 
 product.on("click", ()=>{
     productMenu.toggleClass("show");
+    $(".product img").toggleClass("flip");
 })
 company.on("click", ()=>{
     companyMenu.toggleClass("show");
+    $(".company img").toggleClass("flip");
 })
 connect.on("click", ()=>{
     connectMenu.toggleClass("show");
+    $(".connect img").toggleClass("flip");
 })
