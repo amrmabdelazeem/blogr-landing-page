@@ -22,12 +22,24 @@ menuIcon.on("click", ()=>{
 product.on("click", ()=>{
     productMenu.toggleClass("show");
     $(".product img").toggleClass("flip");
+    companyMenu.removeClass("show");
+    $(".company img").removeClass("flip");
+    connectMenu.removeClass("show");
+    $(".connect img").removeClass("flip");
 })
 company.on("click", ()=>{
     companyMenu.toggleClass("show");
     $(".company img").toggleClass("flip");
+    productMenu.removeClass("show");
+    $("product img").removeClass("flip");
+    connectMenu.removeClass("show");
+    $(".connect img").removeClass("flip");
 })
 connect.on("click", ()=>{
     connectMenu.toggleClass("show");
     $(".connect img").toggleClass("flip");
+    productMenu.removeClass("show");
+    $("product img").removeClass("flip");
+    companyMenu.removeClass("show");
+    $(".company img").removeClass("flip");
 })
