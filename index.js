@@ -13,7 +13,7 @@ menuIcon.on("click", ()=>{
     if(menuIcon.attr("src") === hamIcon){
         menu.fadeIn();
         menuIcon.attr("src", closeIcon);
-    }else{
+    }else if(menuIcon.attr("src")=== closeIcon){
         menu.fadeOut();
         menuIcon.attr("src", hamIcon).fadeIn();
     }

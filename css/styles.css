@@ -331,7 +331,7 @@ h2{
         display: none;
     }
     .menu{
-        display: flex;
+        display: flex !important;
         background: none;
         box-shadow: none;
         top: 30px;
