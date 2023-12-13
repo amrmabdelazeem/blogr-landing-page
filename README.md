@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
-- Mobile
+- Mobile <br/>
 ![Mobile](screenshots/Mobile.png)
 
-- Active-menu-mobile
+- Active-menu-mobile <br/>
 ![menu](screenshots/active-window.png)
 
 - Laptop
