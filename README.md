@@ -1,6 +1,6 @@
 # Blogr landing page solution
 
-[Blogr landing page](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). 
+[Blogr landing page](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP)
 
 ## Table of contents
 
@@ -26,6 +26,9 @@ Users should be able to:
 
 - Mobile
 ![Mobile](screenshots/Mobile.png)
+
+- Active-menu-mobile
+![menu](screenshots/active-window.png)
 
 - Laptop
 ![Laptop](screenshots/Laptop.png)
